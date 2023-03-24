@@ -1,0 +1,126 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+.page-container {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 100vh;
+}
+.sign-in-section {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  grid-template-rows: 6fr 1fr;
+}
+
+.sign-in-input-section {
+  align-self: center;
+}
+
+.sign-in-section footer {
+  align-self: end;
+}
+
+.login-button {
+  background: white;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.buttons {
+  align-self: center;
+}
+.buttons button {
+  width: 49%;
+}
+
+.seperator {
+  margin: 30px 0;
+}
+
+.seperator-line {
+  display: inline-block;
+  width: 150px;
+  height: 1px;
+  background: rgb(183, 183, 183);
+  position: relative;
+  top: -5px;
+}
+
+.sign-in-form {
+  display: grid;
+  margin: 0 auto;
+  row-gap: 10px;
+}
+
+.sign-in-form .link-button {
+  justify-self: end;
+}
+
+.sign-in-form input {
+  background: white;
+  color: gray;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.link-button {
+  text-decoration: none;
+  color: #029ef7;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.sign-in-button {
+  background: #029ef7;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.sign-in-section footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.sign-in-section p,
+.seperator span {
+  color: gray;
+  font-size: 15px;
+}
+
+.sign-in-section footer li {
+  list-style-type: none;
+}
+.info-section {
+  background: #0c72eb;
+  display: grid;
+  grid-template-rows: 2fr 4fr 2fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+}
+.company-logo img {
+  height: 100px;
+}
+
+.company-images img {
+  height: 350px;
+}
+.info-section h3,
+.info-section p {
+  color: white;
+}
+.info-section p {
+  font-size: 15px;
+}
+
+.yellow {
+  color: #c9b231;
+}
