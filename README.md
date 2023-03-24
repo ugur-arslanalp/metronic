@@ -1,7 +1,5 @@
-![ugur-arslanalp github io_metronic_](https://user-images.githubusercontent.com/103636684/227203318-5250b66b-f59f-4bf0-bfbb-e8cab6440dc6.png)
-
 ## Metronic Page
-This is a payment system page UI
+Simple login page UI
 
 ### Details
 * Tech stack: HTML + CSS
